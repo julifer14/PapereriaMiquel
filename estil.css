@@ -1,0 +1,230 @@
+/*Treure decoració link*/
+
+a:active {
+	text-decoration: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+/*---------------------------------------------------------------------------------*/
+/*Serveis*/
+
+#serveis {
+	list-style: none;
+	margin: 100px 0;
+	height: 550px;
+}
+#serveis li {
+	display: inline;
+	float: left;
+	-webkit-perspective: 500;
+	perspective: 500;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition-property: perspective;
+	transition-property: perspective;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+#serveis li:hover {
+	-webkit-perspective: 5000;
+	perspective: 5000;
+}
+
+#serveis li img {
+	border: 10px solid #fcfafa;
+	-webkit-transform: rotateY(30deg);
+	transform: rotateY(30deg);
+	-moz-box-shadow: 0 3px 10px #888;
+	box-shadow: 0 3px 10px #888;
+	-webkit-box-shadow: 0 3px 10px #888;
+	box-shadow: 0 3px 10px #888;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+#serveis li:hover img {
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+}
+
+.info {
+	border: 10px solid #fcfafa;
+	padding: 20px;
+	width: 200px;
+	height: 180px;
+	background-color: #deddcd;
+	margin: -195px 0 0 55px;
+	position: absolute;
+	-moz-box-shadow: 0 20px 40px #888;
+	box-shadow: 0 20px 40px #888;
+	-webkit-box-shadow: 0 20px 40px #888;
+	box-shadow: 0 20px 40px #888;
+	-webkit-transform: translateZ(30px) rotateY(30deg);
+	-moz-transform: translateZ(30px) rotateY(30deg);
+	-webkit-transition-property: transform, box-shadow, margin;
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-property: transform, box-shadow, margin;
+	-webkit-transition-duration: 0.5s;
+}
+
+#serveis li:hover .info {
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-box-shadow: 0 5px 10px #888;
+	box-shadow: 0 5px 10px #888;
+	margin: -175px 0 0 30px;
+}
+
+.info h3 {
+	color: #7a3f3a;
+	font-variant: small-caps;
+	font-family: Georgia, serif, Times;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.info p {
+	padding-bottom: 15px;
+}
+.info a {
+	background-color: #7a3f3a;
+	padding: 5px 10px;
+	color: #eee;
+	text-decoration: none;
+	display: block;
+	width: 80px;
+	text-align: center;
+	margin: 0 auto;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.info a:hover, .info a:focus {
+	background-color: #6a191f;
+	color: #fff;
+}
+/*----------------------------------------------------------------------------*/
+nav p {
+	appearance: button;
+	-moz-appearance: button;
+	-webkit-appearance: button;
+}
+#productes article {
+	background-color: white;
+	color: black;
+	width: 700px;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+#quisom ul li {
+	list-style: none;
+	color: white;
+}
+
+#peu {
+	background-image: url('./img/gray_sand.png');
+	margin-top: 10px;
+	color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+#xarxa {
+	margin-left: 20%;
+	display: inline-block;
+}
+#xarxa ul li {
+	list-style: none;
+}
+#xarxa li {
+	display: inline;
+}
+
+#quisom h4, #xarxa a {
+	color: white;
+}
+
+#quisom {
+	color: white;
+	margin-left: 20%;
+	display: inline-block;
+	text-align: center;
+	color: white;
+}
+
+#articles, #productes {
+	width: 900px;
+	margin-left: 17%;
+	margin-top: 50px;
+}
+#anuncis {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	position: absolute;
+	left: 80%;
+	top: 230px;
+}
+
+#articles article {
+	display: inline-block;
+	background-color: white;
+	color: black;
+	width: 400px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+#anuncis h5 {
+	text-align: center;
+	color: peru;
+}
+
+#articles h1 {
+	text-align: center;
+	color: peru;
+}
+#principal {
+	width: 100%;
+}
+
+nav {
+	color: white;
+	width: 100%;
+	background-image: url('./img/gray_sand.png');
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+nav p {
+	display: inline-block;
+	margin-left: 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+	color: white;
+	background-color: #F0F0F0;
+	padding: 5px;
+}
+
+body {
+	background-image: url('./img/dark_wood.png');
+	box-sizing: border-box;
+}
